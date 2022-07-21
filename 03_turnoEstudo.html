@@ -11,26 +11,21 @@
     conforme o caso.
     */
 
-    //ENTRADA
 
-    const turno = parseInt(prompt("Você trabalha no turno matutino(M), Vespertino(v) ou Noturno(N)?"))
-
-
-    //PROCESSAMENTO
+    const turno = prompt("Você trabalha no turno matutino(M), Vespertino(v) ou Noturno(N)?").toUpperCase()
 
 
-    if (turno == "M") {
+    if (turno === "M") {
         document.write(`Bom Dia!`)
-    } else if (turno == "V") {
+    } else if (turno === "V") {
         document.write(`Boa Tarde!`)
-    } else if (turno == "N") {
+    } else if (turno === "N") {
         document.write(`Boa Noite!`)
     } else {
         document.write(`Valor Inválido`)
     }
 
 
-    //SAÍDA
 
 
 </script>

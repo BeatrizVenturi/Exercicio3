@@ -5,13 +5,15 @@
     Em seguida, troque o valor das variáveis, invertendo e exibindo o antes e o depois em uma janela de alert.
     */
 
-    //ENTRADA
-const Number1 = parseFloat(prompt("Diga um número"))
-const Number2 = parseFloat(prompt("Diga mais um número"))
-
-    //PROCESSAMENTO
+let Number1 = parseFloat(prompt("Diga um número"))
+let Number2 = parseFloat(prompt("Diga mais um número"))
 
 
-    //SAÍDA
+const troca = Number1
+
+Number1 = Number2
+Number2 = troca
+
+alert(`${Number1} ${Number2}`)
 
 </script>
